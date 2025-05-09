@@ -10,7 +10,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"], allow_credentials=True,
+    allow_origins=["https://ai-shopping-bot-copy.vercel.app/"], allow_credentials=True,
     allow_methods=["*"], allow_headers=["*"],
 )
 
@@ -29,12 +29,6 @@ def recommend(input: dict):
     query = input.get("query")
     results = recommend_products(query)
     return {"products": results}
-
-"""@app.post("/image-search")
-async def search_image(file: UploadFile = File(...)):
-    contents = await file.read()
-    results = search_by_image(contents)
-    return {"products": results}"""
 
 @app.post("/image-search")
 async def image_search(image: UploadFile = File(...)):
