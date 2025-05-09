@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+requests
+openai
+torch
+transformers
+faiss-cpu
+Pillow

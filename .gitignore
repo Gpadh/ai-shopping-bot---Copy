@@ -1,0 +1,37 @@
+# Ignore the following files and folders for Visual Studio projects
+
+# User-specific files
+.vs/
+.vscode/
+.idea/
+.env
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# Build directories (compiled files)
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]Release/
+[Dd]ebug_x64/
+[Dd]Debug_x86/
+bin/
+obj/
+
+# User settings and project files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+node_modules

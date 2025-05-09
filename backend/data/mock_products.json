@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "Sporty Running T-Shirt",
+    "category": "t-shirts",
+    "price": 29.99,
+    "image_url": "https://media.istockphoto.com/id/1204948638/vector/t-shirt-sport-mockup-template-design-for-soccer-jersey-football-kit-tank-top-for-basketball.jpg?s=1024x1024&w=is&k=20&c=-j-TxDl_8aRAHlsuJjjNfvkVUf1MTw9AycVgNUF4vps=",
+    "description": "Light-weight running t-shirt for men."
+  },
+  {
+    "id": "2",
+    "title": "Casual Sneakers",
+    "category": "shoes",
+    "price": 89.99,
+    "image_url": "https://media.istockphoto.com/id/1324847242/photo/pair-of-white-leather-trainers-on-white-background.jpg?s=1024x1024&w=is&k=20&c=paCekjw8iHTIKD4jpPXPdZY60gtOgbXV3pO9k1OTASo=",
+    "description": "Casual sneakers perfect for daily wear."
+  },
+  {
+    "id": "3",
+    "title": "Stylish Handbag",
+    "category": "bags",
+    "price": 65.0,
+    "image_url": "https://media.istockphoto.com/id/1325632287/photo/womens-floating-leather-bag.jpg?s=1024x1024&w=is&k=20&c=j13NkbwQfHw38IXu9NwSe7bFe9Nv8jk_Kw1bfb67kNs=",
+    "description": "Elegant leather handbag with multiple compartments."
+  }
+]
