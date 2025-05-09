@@ -1,14 +1,6 @@
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  plugins: [react()],
-  optimizeDeps: {
-    include: ["axios"],
-  },
-  build: {
-    rollupOptions: {
-      external: [],
-    },
-  },
+  base: "ai-shopping-bot--Copy", // Replace 'repository-name' with the actual name of your repo
+  plugins: [],
 });
