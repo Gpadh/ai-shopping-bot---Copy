@@ -10,7 +10,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://ai-shopping-bot-copy.vercel.app"], allow_credentials=True,
+    allow_origins=["*"],
     allow_methods=["*"], allow_headers=["*"],
 )
 
