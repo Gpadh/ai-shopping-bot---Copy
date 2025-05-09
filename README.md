@@ -5,8 +5,8 @@
 ## Backend (Python, FastAPI)
 The backend of this project was created using FastAPI for building a RESTFUL API. FastAPI was selected because of its dev friendly documentation and my familiarity with it.
 
-## Frontend (React, CSS, Axios)
-The frontend of this project was created with React and CSS to allow for easy state management and custom styling, respectively. Axios was used to handle HTTP requests due to its simplicity.
+## Frontend (React, JS, Axios)
+The frontend of this project was created with React to allow for easy state management and custom styling and Axios was used to handle HTTP requests due to its simplicity.
 
 ## Key Features:
 __General Conversation:__ You can ask the AI shopping related questions for any general questions. This is powered by an OpenAI endpoint using a gpt-3.5-turbo model.  
