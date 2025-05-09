@@ -1,5 +1,7 @@
 # AI Shopping Bot Overview
 
+## Working app URL: https://ai-shopping-bot-copy.vercel.app/
+
 ## Backend (Python, FastAPI)
 The backend of this project was created using FastAPI for building a RESTFUL API. FastAPI was selected because of its dev friendly documentation and my familiarity with it.
 
