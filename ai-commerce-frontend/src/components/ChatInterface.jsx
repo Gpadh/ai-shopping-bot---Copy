@@ -13,9 +13,12 @@ function ChatInterface() {
     setInput("");
 
     try {
-      const res = await axios.post("http://localhost:8000/chat", {
-        message: input,
-      });
+      const res = await axios.post(
+        "https://ai-shopping-bot-copy.onrender.com/chat",
+        {
+          message: input,
+        }
+      );
 
       const reply = res.data.response;
       setMessages((prev) => [...prev, { role: "assistant", content: reply }]);

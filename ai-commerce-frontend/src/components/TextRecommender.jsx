@@ -11,9 +11,12 @@ function TextRecommender() {
     if (!query.trim()) return;
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:8000/recommend", {
-        query,
-      });
+      const response = await axios.post(
+        "https://ai-shopping-bot-copy.onrender.com/recommend",
+        {
+          query,
+        }
+      );
       setProducts(response.data.products || []);
     } catch (error) {
       console.error("Recommendation error:", error);

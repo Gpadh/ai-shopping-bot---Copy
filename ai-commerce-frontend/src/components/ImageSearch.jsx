@@ -20,7 +20,7 @@ function ImageSearch() {
 
     try {
       const response = await axios.post(
-        "http://localhost:8000/image-search",
+        "https://ai-shopping-bot-copy.onrender.com/image-search",
         formData,
         {
           headers: {
