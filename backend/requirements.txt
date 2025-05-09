@@ -8,3 +8,4 @@ torchvision
 transformers
 faiss-cpu
 Pillow
+python-multipart
