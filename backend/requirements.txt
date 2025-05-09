@@ -4,6 +4,7 @@ pydantic
 requests
 openai
 torch
+torchvision
 transformers
 faiss-cpu
 Pillow
