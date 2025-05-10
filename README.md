@@ -18,3 +18,5 @@ __Image Search:__ By uploading a .jpg image the agent can check whether a simila
 
 __Mock Products:__ JSON was used as a lightweight solution to represent product metadata and image paths without the need for a database during prototyping. The mock products currently in the database are a t-shirt, a pair of shoes, and a handbag.
 
+## Deployment
+The frontend of this app was hosted on Vercel. The backend of this app was hosted on Render. Please note that the Render webservice is a bit finicky and goes inactive at times and I've taken measures to prevent this (UptimeRobot constantly pinging the service every 5 minutes) so please be patient during testing.
